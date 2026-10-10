@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mist: #F1F4F3;
+  --color-ink: #1B2432;
+  --color-muted: #5E6974;
+  --color-line: #D3DBD8;
+  --color-teal: #146C6B;
+  --color-tealtint: #DCEFEA;
+  --color-amber: #E0A43C;
+  --color-ambertint: #FBF3E4;
+  --color-red: #B3261E;
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+}
+
+html, body { background: #e9edec; color: #1B2432; font-family: var(--font-sans); }
+h1, h2, h3 { font-family: var(--font-serif); font-weight: 500; }
+input[type=range] { accent-color: #146C6B; }
+@media print { body { background: white; } .no-print { display: none; } }
