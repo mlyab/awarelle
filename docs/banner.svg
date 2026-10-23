@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-label="Awarelle — her data, her phone, her pattern">
+  <defs>
+    <linearGradient id="tealFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#146C6B" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#146C6B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amberFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0A43C" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#E0A43C" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="330" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="330" fill="#F1F4F3"/>
+
+    <!-- progesterone: flat follicular, luteal peak -->
+    <path d="M0,290 C150,289 260,288 380,286 C470,284 520,270 580,235 C650,194 720,168 790,166 C860,168 920,196 980,238 C1040,278 1120,288 1200,290 L1200,330 L0,330 Z" fill="url(#amberFill)"/>
+    <path d="M0,290 C150,289 260,288 380,286 C470,284 520,270 580,235 C650,194 720,168 790,166 C860,168 920,196 980,238 C1040,278 1120,288 1200,290" fill="none" stroke="#E0A43C" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- estradiol: follicular rise, ovulatory peak, secondary luteal bump -->
+    <path d="M0,288 C120,286 220,280 300,262 C360,248 400,210 430,160 C450,128 462,110 475,110 C490,110 500,138 515,180 C535,232 560,252 600,254 C660,257 700,240 750,226 C800,214 850,214 900,228 C960,245 1060,275 1200,286 L1200,330 L0,330 Z" fill="url(#tealFill)"/>
+    <path d="M0,288 C120,286 220,280 300,262 C360,248 400,210 430,160 C450,128 462,110 475,110 C490,110 500,138 515,180 C535,232 560,252 600,254 C660,257 700,240 750,226 C800,214 850,214 900,228 C960,245 1060,275 1200,286" fill="none" stroke="#146C6B" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- measured strip dots -->
+    <circle cx="430" cy="160" r="6" fill="#146C6B"/>
+    <circle cx="475" cy="110" r="6" fill="#146C6B" opacity="0.65"/>
+    <circle cx="700" cy="183" r="6" fill="#E0A43C"/>
+    <circle cx="790" cy="166" r="6" fill="#E0A43C" opacity="0.65"/>
+    <circle cx="900" cy="214" r="6" fill="#E0A43C" opacity="0.4"/>
+
+    <!-- today marker -->
+    <line x1="952" y1="78" x2="952" y2="296" stroke="#1B2432" stroke-width="1.6" stroke-dasharray="2 6" opacity="0.55"/>
+    <text x="952" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" fill="#5E6974">today</text>
+
+    <!-- wordmark -->
+    <text x="90" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="500" fill="#1B2432">Awarelle</text>
+    <text x="93" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#5E6974">her data · her phone · her pattern</text>
+
+    <!-- chips -->
+    <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600">
+      <rect x="91" y="196" rx="14" width="208" height="28" fill="#DCEFEA"/>
+      <text x="195" y="215" text-anchor="middle" fill="#146C6B">computed on her device</text>
+      <rect x="311" y="196" rx="14" width="252" height="28" fill="#FBF3E4"/>
+      <text x="437" y="215" text-anchor="middle" fill="#9A6B14">the cloud sees only ciphertext</text>
+    </g>
+  </g>
+</svg>
