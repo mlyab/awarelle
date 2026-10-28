@@ -153,14 +153,14 @@ Stack, kept deliberately boring: **React + TypeScript + Vite + Tailwind + Rechar
 Built with care, fury, and very little sleep by:
 
 - **Malya Aboun** — [GitHub](https://github.com/mlyab) · [LinkedIn](https://www.linkedin.com/in/malya-aboun/)
-- **Emma** <!-- full name + links to be added -->
-- **Tamara** <!-- full name + links to be added -->
+- **Emma Châtaignier** · [LinkedIn](https://www.linkedin.com/in/emma-chataigner/)
+- **Tamara** · [LinkedIn](https://www.linkedin.com/in/tamarandi/)
 
 With gratitude to **Build For Her** for the room full of builders, to **Ambarella** for sponsoring it, to **RoamHer** and **The Glow Girl** social club for the energy — and most of all to the **19 women (and counting)** who told us what they actually needed. We heard you. The ledger says zero.
 
 ## License
 
-© 2026 Malya Aboun, Emma & Tamara — **all rights reserved.** We publish this code so you can read it, run it, and hold our privacy claims to account — not so it can be copied. No reuse, redistribution, or derivative work without our written permission. Details in [LICENSE](LICENSE).
+© 2026 Malya Aboun, Emma Châtaignier & Tamara N. — **all rights reserved.** We publish this code so you can read it, run it, and hold our privacy claims to account — not so it can be copied. No reuse, redistribution, or derivative work without our written permission. Details in [LICENSE](LICENSE).
 
 ---
 
