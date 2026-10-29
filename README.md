@@ -150,7 +150,7 @@ Stack, kept deliberately boring: **React + TypeScript + Vite + Tailwind + Rechar
 
 ## The women behind it
 
-Built with care, fury, and very little sleep by:
+Built with care, fury in one day by:
 
 - **Malya Aboun** — [GitHub](https://github.com/mlyab) · [LinkedIn](https://www.linkedin.com/in/malya-aboun/)
 - **Emma Châtaignier** · [LinkedIn](https://www.linkedin.com/in/emma-chataigner/)
